@@ -1,16 +1,14 @@
 # image_carousel_practice
 
-A new Flutter project.
+Flutter를 활용한 전자액자입니다.
 
-## Getting Started
+## 사용된 위젯 및 프로퍼티
 
-This project is a starting point for a Flutter application.
+PageView : PageController
+image : fit, asset
+Timer : periodic
 
-A few resources to get you started if this is your first Flutter project:
+controller와 periodic 사용 시 메모리 누수 주의!! (반드시 dispose()를 해줄 것.)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
