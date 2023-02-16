@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.codefactory.imagecarousel.image_carousel">
+    package="com.example.image_carousel_practice">
    <application
-        android:label="image_carousel"
+        android:label="image_carousel_practice"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
